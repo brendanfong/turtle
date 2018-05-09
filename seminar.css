@@ -1,0 +1,17 @@
+.abstractavailable {
+    background:none;
+    border:none;
+    color:#5169B1;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.page-header {
+    background-color:#D4D8E4;
+    padding:20px;
+}
+
+.card {
+    margin-bottom:20px;
+}

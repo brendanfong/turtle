@@ -6,6 +6,11 @@
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="seminar.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,7 +26,7 @@
 <body style="font-family:'Open Sans',sans-serif;">
 
 <div class="container">
-<div class="page-header" style="background-color:#D4D8E4;padding:20px">
+<div class="page-header">
 <h1> MIT (Applied) Categories Seminar </h1>
 
 <p class="lead"> 
@@ -40,8 +45,15 @@ How to do genetics with category theory II: Recognition of biological mechanisms
 <p>
 <b> May 17 </b>: Christoph Dorn (Oxford)
 <br>
-Higher-dimensional Programming.
+  <button type="button" class="abstractavailable" data-toggle="collapse" data-target="#dorn" aria-expanded="false" aria-controls="dorn">
+    Higher-dimensional Programming.
+  </button>
 </p>
+<div class="collapse" id="dorn">
+  <div class="card card-body">
+  "Higher categories" are algebraic structures which generalise categories, in the same way that categories generalise sets. The theory of these structures is ubiquitous in many areas of application of category theory. In this talk, we will motivate higher structure from applications in logic, type theory and programming languages. Surprisingly, a formulation of higher categories which is amendable to computer implementation has been missing for decades — with homotopy type theory being a notable exception of the special case of “higher groupoids”. Starting from elementary observations about compositionality in higher dimensions, will sketch a combinatorial approach to higher categories that gives rise to a programming language which we call “Globular” and which comes with an elegant geometric model. We will see that programs in Globular can capture complex higher-dimensional geometric deformations, and learn how, for instance, they can capture higher homotopy groups of spheres and other interesting geometric facts.
+  </div>
+</div>
 
 <p>
 <b> May 24 </b>: Tim Havel
@@ -94,14 +106,31 @@ The equivalence of hypergraph categories and lax monoidal functors Cospan(FinSet
 <p>
 <b> April 5 </b>: Enrique Boroquez (UNAM)
 <br>
+  <button type="button" class="abstractavailable" data-toggle="collapse" data-target="#boro" aria-expanded="false" aria-controls="boro">
 What is a point?
+</button>
 </p>
+
+<div class="collapse" id="boro">
+  <div class="card card-body">
+The idea is to explore the concept "Point", to look at it from different perspectives and see the connections given by the Stone Duality and the Gelfand Duality. Starting from a topological perspective, a point as an element of a topological space, we'll see the correspondences with ultrafilters, global elements in the category of Stone Spaces, morphisms that have as codomain the initial algebra 2 and how this morphisms correspond to valuations of a language in classical logic. We'll then go to boolean valued models, see how the points there have a probabilistic behavior and see some interesting consequences given by doing the forcing method through principal ultrafilters vs non-principal ultrafilters.Then we'll see the equivalences given by the Gelfand Duality: global elements in the category of locally compact spaces, characters of commutative C* algebras, maximal ideals, pure states (as positive, normalized functionals) and irreducible representations.
+  </div>
+</div>
 
 <p>
 <b> April 12 </b>: David Spivak
-<br>
-How to do logic (regular, coherent, geometric) with wiring diagrams. (<a href=https://www.youtube.com/watch?v=2w2sdVzCyl0>Part I</a>, <a href=https://www.youtube.com/watch?v=kZCqHZMRrKs>Part II</a>, <a href=https://www.youtube.com/watch?v=XKVUX4vFIQc>Part III</a>, <a href=https://www.youtube.com/watch?v=FwqHWvLPBCE>Teaser/Addendum</a>)
+<br>  
+<button type="button" class="abstractavailable" data-toggle="collapse" data-target="#graphlogic" aria-expanded="false" aria-controls="graphlogic">
+How to do logic (regular, coherent, geometric) with wiring diagrams.
+</button>
 </p>
+
+<div class="collapse" id="graphlogic">
+  <div class="card card-body">
+<span>Videos: <a href=https://www.youtube.com/watch?v=2w2sdVzCyl0>Part I</a>, <a href=https://www.youtube.com/watch?v=kZCqHZMRrKs>Part II</a>, <a href=https://www.youtube.com/watch?v=XKVUX4vFIQc>Part III</a>, <a href=https://www.youtube.com/watch?v=FwqHWvLPBCE>Teaser/Addendum</a>
+</span>
+  </div>
+</div>
 
 <p>
 <b> April 19 </b>: Remy Tuyeras
