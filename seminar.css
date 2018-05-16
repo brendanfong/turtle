@@ -5,6 +5,7 @@
     margin:0;
     padding:0;
     cursor: pointer;
+    text-align:left;
 }
 
 .page-header {
@@ -14,4 +15,8 @@
 
 .card {
     margin-bottom:20px;
+}
+
+.big {
+    font-size: 14pt;
 }
